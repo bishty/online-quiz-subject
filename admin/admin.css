@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  font-size: 26px;
+}
+
+li {
+  display: inline;
+  padding-right: 85px;
+  padding-left: 23px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.header {
+  background-color: #80ced6;
+
+  box-shadow: 5px 8px 8px 10px #c7c2c2;
+  padding: 24px;
+  font-family: "Lobster", cursive;
+}
+#main1,
+#main2,
+#main3 {
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 56px;
+  width: 26%;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 87px;
+  background-color: #80ced6;
+  border-radius: 50px 20px 67px 56px;
+  margin-left: 45px;
+  display: flex;
+}
+input,
+select {
+  width: 50%;
+  background-color: transparent;
+  color: rgb(10, 9, 9);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-bottom: 2px solid black;
+}
+label {
+  font-family: "Lobster", cursive;
+  font-size: 23px;
+}
+input:focus {
+  outline: none;
+  border-bottom: none;
+}
+.button {
+  font-family: "Lobster", cursive;
+  background-color: #a06a31;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+}
+#adminbox {
+  margin-right: 94px;
+}
+#top {
+  display: flex;
+}
+#top2 {
+  margin-left: 345px;
+}
+#main4 {
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 56px;
+  width: 66%;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 67px;
+  background-color: #80ced6;
+  border-radius: 50px 20px 67px 56px;
+  margin-left: 45px;
+  display: flex;
+}
+#main5 {
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 56px;
+  width: 36%;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 67px;
+  background-color: #80ced6;
+  border-radius: 50px 20px 67px 56px;
+
+  display: flex;
+}

@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  font-size: 26px;
+}
+
+li {
+  display: inline;
+  padding-right: 85px;
+  padding-left: 23px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.header {
+  background-color: #80ced6;
+
+  box-shadow: 5px 8px 8px 10px #c7c2c2;
+  padding: 24px;
+  font-family: "Lobster", cursive;
+}
+#main1 {
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 56px;
+  width: 46%;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 87px;
+  background-color: #80ced6;
+  padding: 70px;
+  border-radius: 50px 20px 67px 56px;
+}
+
+/* prince changed */
+.inputstyle {
+  width: 50%;
+  background-color: transparent;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-bottom: 2px solid black;
+}
+label {
+  font-family: "Lobster", cursive;
+  font-size: 23px;
+}
+.inputstyle:focus {
+  outline: none;
+  border-bottom: none;
+}
+.button {
+  font-family: "Lobster", cursive;
+  background-color: #4c95af; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.box {
+  width: 25%;
+  height: 30vh;
+  margin-right: 2%;
+  background-color: rgb(52, 69, 90);
+  padding-top: 6%;
+  text-align: center;
+}
+
+.box p {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin-bottom: 3%;
+}
+.box1 {
+  border-radius: 78px 60px 56px;
+  border: 1px solid rgba(212, 114, 114, 0.18);
+  padding: 46px;
+  width: 80%;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 87px;
+  background-color: #5a8e97;
+  border-radius: 50px 20px 67px 56px;
+  margin-left: 85px;
+  display: flex;
+  height: 85vh;
+}
+.boxxx{
+  padding:80px ;
+}
